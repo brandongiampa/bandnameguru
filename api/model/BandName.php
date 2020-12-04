@@ -1,9 +1,5 @@
 <?php
 
-function capitalize( $str ) {
-
-}
-
 class BandNameType1 {
 
     private $_adj;
@@ -102,6 +98,5 @@ function capitalize_phrase( $word ){
     return $word;
 
 }
-
 
 ?>

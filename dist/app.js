@@ -2128,26 +2128,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_showNavbar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/showNavbar.js */ "./src/js/showNavbar.js");
 /* harmony import */ var _js_coverScreen_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/coverScreen.js */ "./src/js/coverScreen.js");
 /* harmony import */ var _js_showScreen_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/showScreen.js */ "./src/js/showScreen.js");
-/* harmony import */ var _js_getBandNames_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./js/getBandNames.js */ "./src/js/getBandNames.js");
-/* harmony import */ var _js_rename_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./js/rename.js */ "./src/js/rename.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _js_slideToSection2_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./js/slideToSection2.js */ "./src/js/slideToSection2.js");
-/* harmony import */ var _js_slideToSection3_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./js/slideToSection3.js */ "./src/js/slideToSection3.js");
-/* harmony import */ var _js_toggleSocialShares_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./js/toggleSocialShares.js */ "./src/js/toggleSocialShares.js");
-/* harmony import */ var _js_shareOnFacebook_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./js/shareOnFacebook.js */ "./src/js/shareOnFacebook.js");
-/* harmony import */ var _js_setBandNames_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./js/setBandNames.js */ "./src/js/setBandNames.js");
-/* harmony import */ var _js_setTwitterHrefs_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./js/setTwitterHrefs.js */ "./src/js/setTwitterHrefs.js");
-/* harmony import */ var _js_setFacebookHrefs_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./js/setFacebookHrefs.js */ "./src/js/setFacebookHrefs.js");
-/* harmony import */ var _js_closeAllSocialShareDivs_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./js/closeAllSocialShareDivs.js */ "./src/js/closeAllSocialShareDivs.js");
-// import getTransitionTimeInMs from "./js/getTransitionTimeInMs.js"
-
-
-
-
-
-
-
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _js_toggleSocialShares_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./js/toggleSocialShares.js */ "./src/js/toggleSocialShares.js");
+/* harmony import */ var _js_setBandNames_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./js/setBandNames.js */ "./src/js/setBandNames.js");
+/* harmony import */ var _js_closeAllSocialShareDivs_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./js/closeAllSocialShareDivs.js */ "./src/js/closeAllSocialShareDivs.js");
 
 
 
@@ -2177,17 +2162,17 @@ function onLoad() {
   }
 
   if (document.getElementById("rename")) {
-    Object(_js_setBandNames_js__WEBPACK_IMPORTED_MODULE_11__["default"])();
-    document.getElementById("rename").addEventListener("click", _js_setBandNames_js__WEBPACK_IMPORTED_MODULE_11__["default"]);
-    document.getElementById("rename").addEventListener("click", _js_closeAllSocialShareDivs_js__WEBPACK_IMPORTED_MODULE_14__["default"]);
-    document.getElementById("rename").addEventListener("click", _js_hideNavbar_js__WEBPACK_IMPORTED_MODULE_0__["default"]);
+    Object(_js_setBandNames_js__WEBPACK_IMPORTED_MODULE_6__["default"])();
+    document.getElementById("rename").addEventListener("click", _js_setBandNames_js__WEBPACK_IMPORTED_MODULE_6__["default"]);
+    document.getElementById("rename").addEventListener("click", _js_closeAllSocialShareDivs_js__WEBPACK_IMPORTED_MODULE_7__["default"]);
+    document.getElementById("rename").addEventListener("click", _js_closeAllSocialShareDivs_js__WEBPACK_IMPORTED_MODULE_7__["default"]);
   }
 
   if (document.getElementsByClassName("share-button")) {
     var socialShares = document.getElementsByClassName("share-button");
 
     for (var i = 0; i < socialShares.length; i++) {
-      socialShares[i].addEventListener("click", _js_toggleSocialShares_js__WEBPACK_IMPORTED_MODULE_9__["default"]);
+      socialShares[i].addEventListener("click", _js_toggleSocialShares_js__WEBPACK_IMPORTED_MODULE_5__["default"]);
     }
   }
 
@@ -2195,7 +2180,7 @@ function onLoad() {
     var closeSocials = document.getElementsByClassName("close-social");
 
     for (var _i = 0; _i < closeSocials.length; _i++) {
-      closeSocials[_i].addEventListener("click", _js_toggleSocialShares_js__WEBPACK_IMPORTED_MODULE_9__["default"]);
+      closeSocials[_i].addEventListener("click", _js_toggleSocialShares_js__WEBPACK_IMPORTED_MODULE_5__["default"]);
     }
   }
 }
@@ -2273,52 +2258,6 @@ function coverScreen() {
 
 /***/ }),
 
-/***/ "./src/js/getBandNames.js":
-/*!********************************!*\
-  !*** ./src/js/getBandNames.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _slideToSection2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./slideToSection2.js */ "./src/js/slideToSection2.js");
-/* harmony import */ var _slideToSection3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./slideToSection3.js */ "./src/js/slideToSection3.js");
-// import Axios from "axios"
-
-
-
-function getBandNames(e) {
-  e.preventDefault();
-
-  var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-
-  var genreSelect = document.getElementById("genre");
-  var genre = genreSelect.value; // Make a request for a user with a given ID
-
-  axios.get('api/controller/bandnames.php?genre=' + genre).then(function (response) {
-    Object(_slideToSection2_js__WEBPACK_IMPORTED_MODULE_0__["default"])(); // handle success
-
-    var obj = response.data.data;
-    console.log(obj);
-    document.getElementById("name-1").innerHTML = obj.band_name_1;
-    document.getElementById("name-2").innerHTML = obj.band_name_2;
-    document.getElementById("name-3").innerHTML = obj.band_name_3;
-    document.getElementById("name-4").innerHTML = obj.band_name_4;
-  })["catch"](function (error) {
-    // handle error
-    console.log(error);
-  }).then(function () {
-    // always executed
-    Object(_slideToSection3_js__WEBPACK_IMPORTED_MODULE_1__["default"])();
-  });
-  axios = false;
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (getBandNames);
-
-/***/ }),
-
 /***/ "./src/js/getTransitionTimeInMs.js":
 /*!*****************************************!*\
   !*** ./src/js/getTransitionTimeInMs.js ***!
@@ -2372,46 +2311,6 @@ function hideNavbar() {
 
 /***/ }),
 
-/***/ "./src/js/rename.js":
-/*!**************************!*\
-  !*** ./src/js/rename.js ***!
-  \**************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// import Axios from "axios"
-function rename(e) {
-  e.preventDefault();
-
-  var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-
-  var genreSelect = document.getElementById("genre");
-  var genre = genreSelect.value; // Make a request for a user with a given ID
-
-  axios.get('api/controller/bandnames.php?genre=' + genre).then(function (response) {
-    document.getElementById("pulse-wrap").style.visibility = "visible"; // handle success
-
-    var obj = response.data.data;
-    console.log(obj);
-    document.getElementById("name-1").innerHTML = obj.band_name_1 + ' <i class="material-icons">share</i>';
-    document.getElementById("name-2").innerHTML = obj.band_name_2 + ' <i class="material-icons">share</i>';
-    document.getElementById("name-3").innerHTML = obj.band_name_3 + ' <i class="material-icons">share</i>';
-    document.getElementById("name-4").innerHTML = obj.band_name_4 + ' <i class="material-icons">share</i>';
-  })["catch"](function (error) {
-    // handle error
-    console.log(error);
-  }).then(function () {
-    // always executed
-    document.getElementById("pulse-wrap").style.visibility = "hidden";
-  });
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (rename);
-
-/***/ }),
-
 /***/ "./src/js/setBandNames.js":
 /*!********************************!*\
   !*** ./src/js/setBandNames.js ***!
@@ -2421,11 +2320,7 @@ function rename(e) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _slideToSection2_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./slideToSection2.js */ "./src/js/slideToSection2.js");
-/* harmony import */ var _slideToSection3_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./slideToSection3.js */ "./src/js/slideToSection3.js");
-/* harmony import */ var _setTwitterHrefs_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./setTwitterHrefs.js */ "./src/js/setTwitterHrefs.js");
-
-
+/* harmony import */ var _setTwitterHrefs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./setTwitterHrefs.js */ "./src/js/setTwitterHrefs.js");
 
 
 function setBandNames() {
@@ -2463,7 +2358,7 @@ function setBandNames() {
     } //set Twitter share link w/ text 
 
 
-    Object(_setTwitterHrefs_js__WEBPACK_IMPORTED_MODULE_2__["default"])(bandNames);
+    Object(_setTwitterHrefs_js__WEBPACK_IMPORTED_MODULE_0__["default"])(bandNames);
   })["catch"](function (error) {
     // handle error
     console.log(error);
@@ -2498,30 +2393,6 @@ function hideDotPulse() {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (setBandNames);
-
-/***/ }),
-
-/***/ "./src/js/setFacebookHrefs.js":
-/*!************************************!*\
-  !*** ./src/js/setFacebookHrefs.js ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-function setFacebookHrefs() {
-  //get anchors to assign hrefs to
-  var anchors = document.querySelectorAll("a.share-link-twitter"); //get url of current page
-
-  var url = window.location.href;
-
-  for (var i = 0; i < anchors.length; i++) {
-    anchors[i].href = "https://www.facebook.com/sharer.php?u=".concat(url);
-  }
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (setFacebookHrefs);
 
 /***/ }),
 
@@ -2564,26 +2435,6 @@ function replaceSpaces(str) {
 
 /***/ }),
 
-/***/ "./src/js/shareOnFacebook.js":
-/*!***********************************!*\
-  !*** ./src/js/shareOnFacebook.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-function shareOnFacebook(e) {
-  var bandName = e.target.parentElement.parentElement.firstChild.nextSibling.nextSibling.nextSibling.firstChild.innerText;
-  var url = window.location.href;
-  console.log(bandName);
-  console.log(url);
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (shareOnFacebook);
-
-/***/ }),
-
 /***/ "./src/js/showNavbar.js":
 /*!******************************!*\
   !*** ./src/js/showNavbar.js ***!
@@ -2614,13 +2465,13 @@ function showNavbar() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _getTransitionTimeInMs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getTransitionTimeInMs */ "./src/js/getTransitionTimeInMs.js");
+/* harmony import */ var _getTransitionTimeInMs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getTransitionTimeInMs.js */ "./src/js/getTransitionTimeInMs.js");
 
 
 function showScreen() {
   var blackout = document.getElementById("blackout-screen");
-  var blackoutDuration = Object(_getTransitionTimeInMs__WEBPACK_IMPORTED_MODULE_0__["default"])(blackout);
-  var navbarDuration = Object(_getTransitionTimeInMs__WEBPACK_IMPORTED_MODULE_0__["default"])(document.getElementById("navbar-main"));
+  var blackoutDuration = Object(_getTransitionTimeInMs_js__WEBPACK_IMPORTED_MODULE_0__["default"])(blackout);
+  var navbarDuration = Object(_getTransitionTimeInMs_js__WEBPACK_IMPORTED_MODULE_0__["default"])(document.getElementById("navbar-main"));
   var duration = blackoutDuration + navbarDuration;
   console.log(duration);
 
@@ -2628,52 +2479,12 @@ function showScreen() {
     blackout.style.opacity = "0";
     setTimeout(function () {
       blackout.style.width = "0";
-      console.log(Object(_getTransitionTimeInMs__WEBPACK_IMPORTED_MODULE_0__["default"])(blackout));
+      console.log(Object(_getTransitionTimeInMs_js__WEBPACK_IMPORTED_MODULE_0__["default"])(blackout));
     }, duration);
   }
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (showScreen);
-
-/***/ }),
-
-/***/ "./src/js/slideToSection2.js":
-/*!***********************************!*\
-  !*** ./src/js/slideToSection2.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-function slideToSection2() {
-  var currentSection = document.getElementById("showcase");
-  var nextSection = document.getElementById("loading");
-  currentSection.style.left = "-100%";
-  nextSection.style.left = "0";
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (slideToSection2);
-
-/***/ }),
-
-/***/ "./src/js/slideToSection3.js":
-/*!***********************************!*\
-  !*** ./src/js/slideToSection3.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-function slideToSection3() {
-  var currentSection = document.getElementById("loading");
-  var nextSection = document.getElementById("show-names");
-  currentSection.style.left = "-100%";
-  nextSection.style.left = "0";
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (slideToSection3);
 
 /***/ }),
 

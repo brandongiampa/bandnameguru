@@ -402,12 +402,17 @@ nav.navbar-main {
   z-index: 999;
   position: fixed;
   left: 100%;
-  overflow-y: scroll;
   transform: translateX(0);
   transition: transform 0.7s ease-in;
   height: 100%;
   background-color: #11394b;
   width: 225px;
+}
+
+@media only screen and (max-height: 620px) {
+  nav.navbar-main {
+    overflow-y: scroll;
+  }
 }
 
 nav.navbar-main .close-nav {

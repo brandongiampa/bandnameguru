@@ -1,9 +1,6 @@
 <?php $bg_img = "img/concert.jpg"; ?>
-
 <?php require_once realpath( __DIR__ . "/header.php" ); ?>
-
 <?php require_once realpath( __DIR__ . "/inc/navbar.php" ); ?>
-
 <section id="show-names" class="show-names">
     <div class="container">
         <div class="text">
@@ -46,10 +43,7 @@
             <br>
             <?php require_once "inc/return-link.php"; ?>
         </div>
-       
     </div>
 </section>
-
 <?php require_once realpath( __DIR__ . "/inc/footer.php" ); ?>
-
 <?php require_once realpath( __DIR__ . "/inc/blackout-screen.php" ); ?>

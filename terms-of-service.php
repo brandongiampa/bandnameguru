@@ -1,3 +1,4 @@
+<?php $is_info_page = true; ?>
 <?php $bg_img = "none"; ?> 
 <?php require_once realpath( __DIR__ . "/header.php" ); ?>
 <?php require_once realpath( __DIR__ . "/inc/navbar.php" ); ?>
