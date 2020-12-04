@@ -2149,6 +2149,13 @@ if (document.readyState === "complete" || document.readyState !== "loading" && !
 }
 
 function onLoad() {
+  var pathname = document.location.pathname;
+  console.log(pathname);
+  var arr = pathname.split("/");
+  console.log({
+    arr: arr
+  });
+
   if (document.getElementById("show-menu")) {
     document.getElementById("show-menu").addEventListener("click", onMenuClick);
   }
