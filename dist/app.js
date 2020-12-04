@@ -2369,7 +2369,11 @@ function setBandNames() {
 
 function getGenreFromURL() {
   var pathname = document.location.pathname;
+  console.log(pathname);
   var arr = pathname.split("/");
+  console.log({
+    arr: arr
+  });
   return arr[2];
 }
 
