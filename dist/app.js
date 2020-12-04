@@ -2332,7 +2332,15 @@ __webpack_require__.r(__webpack_exports__);
 
 function setBandNames() {
   //show spinner 
-  showDotPulse(); //axios 
+  showDotPulse();
+  var nameSpans = document.getElementsByClassName("name-span");
+  var numberOfNameSpans = nameSpans.length; //show placeholder bar like on facebook and youtube while loading from api 
+
+  for (var i = 0; i < numberOfNameSpans; i++) {
+    //set band name in span
+    nameSpans[i].innerHTML = '<span class="band-name-placeholder">The Name Placeholders</span>';
+  } //axios 
+
 
   var axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js"); //get genre from url
 
@@ -2359,9 +2367,9 @@ function setBandNames() {
     bandNames.push(obj.band_name_3);
     bandNames.push(obj.band_name_4);
 
-    for (var i = 0; i < bandNames.length; i++) {
+    for (var _i = 0; _i < bandNames.length; _i++) {
       //set band name in span
-      document.getElementById("name-" + (i + 1)).innerHTML = bandNames[i];
+      document.getElementById("name-" + (_i + 1)).innerHTML = bandNames[_i];
     } //set Twitter share link w/ text 
 
 

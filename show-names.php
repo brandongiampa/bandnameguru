@@ -11,24 +11,24 @@
                 <div class="name">
                     <label for="name-1">Style #1</label>
                     <p>
-                        <span id="name-1">The Cooking Spoons</span>
+                        <span class="name-span" id="name-1"><span class="band-name-placeholder">The Name Placeholders</span></span>
                         <i class="share-button material-icons">share</i>
                     </p>
                     <?php include 'inc/social-shares.php'; ?>
                 </div>
                 <div class="name">
                     <label for="name-2">Style #2</label>
-                    <p><span  id="name-2">The Ploops</span> <i class="share-button material-icons">share</i></p>
+                    <p><span  class="name-span" id="name-2"><span class="band-name-placeholder">The Name Placeholders</span></span> <i class="share-button material-icons">share</i></p>
                     <?php include 'inc/social-shares.php'; ?>
                 </div>
                 <div class="name">
                     <label for="name-3">Style #3</label>
-                    <p><span  id="name-3">The Archers of Spork</span> <i class="share-button material-icons">share</i></p>
+                    <p><span class="name-span" id="name-3"><span class="band-name-placeholder">The Name Placeholders</span></span> <i class="share-button material-icons">share</i></p>
                     <?php include 'inc/social-shares.php'; ?>
                 </div>
                 <div class="name">
                     <label for="name-4">Style #4</label>
-                    <p><span  id="name-4">The Seth Rogen Experience</span> <i class="share-button material-icons">share</i></p>
+                    <p><span class="name-span" id="name-4"><span class="band-name-placeholder">The Name Placeholders</span></span> <i class="share-button material-icons">share</i></p>
                     <?php include 'inc/social-shares.php'; ?>
                 </div>
             </div>

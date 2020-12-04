@@ -542,6 +542,12 @@ section#show-names .text .names .name > p i.material-icons {
   color: #abb;
 }
 
+section#show-names .text .names .name > p .band-name-placeholder {
+  background-color: #abb;
+  opacity: 0.1;
+  color: transparent;
+}
+
 section#show-names .text .names .name .share-button:hover {
   cursor: pointer;
 }
