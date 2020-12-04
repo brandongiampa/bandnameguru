@@ -1,0 +1,1 @@
+<div id="blackout-screen" class="blackout-screen"></div>
