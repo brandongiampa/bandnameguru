@@ -331,6 +331,10 @@ button.link-center {
   color: #abb;
 }
 
+.center-wrap {
+  text-align: center;
+}
+
 .blackout-screen {
   position: fixed;
   width: 0;

@@ -2133,6 +2133,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_toggleSocialShares_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./js/toggleSocialShares.js */ "./src/js/toggleSocialShares.js");
 /* harmony import */ var _js_setBandNames_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./js/setBandNames.js */ "./src/js/setBandNames.js");
 /* harmony import */ var _js_closeAllSocialShareDivs_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./js/closeAllSocialShareDivs.js */ "./src/js/closeAllSocialShareDivs.js");
+/* harmony import */ var _js_setFacebookHrefs_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./js/setFacebookHrefs.js */ "./src/js/setFacebookHrefs.js");
+
 
 
 
@@ -2163,8 +2165,8 @@ function onLoad() {
 
   if (document.getElementById("rename")) {
     Object(_js_setBandNames_js__WEBPACK_IMPORTED_MODULE_6__["default"])();
+    Object(_js_setFacebookHrefs_js__WEBPACK_IMPORTED_MODULE_8__["default"])();
     document.getElementById("rename").addEventListener("click", _js_setBandNames_js__WEBPACK_IMPORTED_MODULE_6__["default"]);
-    document.getElementById("rename").addEventListener("click", _js_closeAllSocialShareDivs_js__WEBPACK_IMPORTED_MODULE_7__["default"]);
     document.getElementById("rename").addEventListener("click", _js_closeAllSocialShareDivs_js__WEBPACK_IMPORTED_MODULE_7__["default"]);
   }
 
@@ -2402,6 +2404,30 @@ function hideDotPulse() {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (setBandNames);
+
+/***/ }),
+
+/***/ "./src/js/setFacebookHrefs.js":
+/*!************************************!*\
+  !*** ./src/js/setFacebookHrefs.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function setFacebookHrefs() {
+  //get anchors to assign hrefs to
+  var anchors = document.querySelectorAll("a.share-link-facebook"); //get url of current page
+
+  var url = window.location.href;
+
+  for (var i = 0; i < anchors.length; i++) {
+    anchors[i].href = "https://www.facebook.com/sharer.php?u=".concat(url);
+  }
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (setFacebookHrefs);
 
 /***/ }),
 

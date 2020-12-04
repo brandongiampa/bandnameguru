@@ -1,1 +1,3 @@
-<a class="link link-center" href="index.php">&#xab; Return</a>
+<div class="center-wrap">
+    <a class="link link-center" href="<?php echo HOME_URL; ?>">&#xab; Return</a>
+</div>
