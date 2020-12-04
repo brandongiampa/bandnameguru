@@ -25,7 +25,8 @@
     <meta name="description" content="The wisest of modern band and song name generators.">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="<?php echo  HOME_URL . "/dist/app.css"; ?>">
+    <link rel="stylesheet" href="<?php echo HOME_URL . "/dist/app.css"; ?>">
+    <link rel="icon" href="<?php echo HOME_URL . "/img/icon.png";?>" type="image/png" sizes="16x16">
     <!--SEO--> 
     <meta name=”robots” content="index, follow">
     <!--Facebook share-->
