@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('America/Los_Angeles');
-require_once 'DB.php';
+require_once 'db.php';
 require_once '../model/BandName.php';
 require_once '../model/Response.php';
 
