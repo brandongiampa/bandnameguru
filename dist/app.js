@@ -2376,12 +2376,9 @@ function setBandNames() {
 
 function getGenreFromURL() {
   var pathname = document.location.pathname;
-  console.log(pathname);
   var arr = pathname.split("/");
-  console.log({
-    arr: arr
-  });
-  return arr[2];
+  var length = arr.length;
+  return arr[length - 1]; // return arr[ 2 ] was original solution, did not work on live site
 }
 
 function get404PageFromURL() {
