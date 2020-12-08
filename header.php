@@ -38,7 +38,7 @@
     <!--Twitter share-->
     <meta name="twitter:title" content="Band Name Guru ">
     <meta name="twitter:description" content=" Creating memorable band and song names since the dawn of time.">
-    <meta name="twitter:image" content="<?php echo HOME_URL . "/img/screenshot.jpg"; ?>">
+    <meta name="twitter:image" content="<?php echo HOME_URL . "/img/screenshot2.jpg"; ?>">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:alt" content="The year is 2021 and the vaccine has finally brought things back to normal. After spending your whole quarantine practicing, your band is going places. You are set to play the first set and the first rock festival in over a year! What is your band's name?">
     <?php if ( ! isset( $is_info_page ) ): ?>
