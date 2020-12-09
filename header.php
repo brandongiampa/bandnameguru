@@ -32,15 +32,16 @@
     <!--Facebook share-->
     <meta property="og:title" content="Band Name Guru">
     <meta property="og:description" content="Creating memorable band and song names since the dawn of time.">
-    <meta property="og:image" content="<?php echo HOME_URL . "/img/screenshot.jpg"; ?>">
+    <meta property="og:image" content="<?php echo HOME_URL . "/img/screenshot2.jpg"; ?>">
     <meta property="og:url" content="<?php echo HOME_URL; ?>">
     <meta property="og:site_name" content="bandnameguru.com">
     <!--Twitter share-->
-    <meta name="twitter:title" content="Band Name Guru ">
+    <meta name="twitter:title" content="Band Name Guru">
     <meta name="twitter:description" content=" Creating memorable band and song names since the dawn of time.">
     <meta name="twitter:image" content="<?php echo HOME_URL . "/img/screenshot2.jpg"; ?>">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:alt" content="The year is 2021 and the vaccine has finally brought things back to normal. After spending your whole quarantine practicing, your band is going places. You are set to play the first set and the first rock festival in over a year! What is your band's name?">
+    <!--Google Ads-->
     <?php if ( ! isset( $is_info_page ) ): ?>
         <script data-ad-client="ca-pub-8145132171809817" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <?php endif; ?>
