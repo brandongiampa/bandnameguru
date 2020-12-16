@@ -493,7 +493,8 @@ section#showcase .form-wrap h1 {
 
 @media only screen and (min-width: 992px) {
   section#showcase .form-wrap h1 {
-    font-size: 100px !important;
+    font-size: 108px !important;
+    margin-bottom: 32px;
   }
 }
 
