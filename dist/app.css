@@ -239,6 +239,12 @@ h1 {
   font-family: "New Rocker", serif;
 }
 
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 108px !important;
+  }
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -353,7 +359,6 @@ header {
   z-index: 1000;
   width: 100%;
   z-index: 2;
-  border-bottom: 1px #ffffff22 solid;
 }
 
 header .header-wrap {
@@ -362,6 +367,7 @@ header .header-wrap {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 1px #ffffff22 solid;
 }
 
 header .header-wrap > .branding {
@@ -629,6 +635,17 @@ section#show-names .center-wrap {
 
 section.page p {
   font-size: 18px;
+}
+
+@media only screen and (min-width: 992px) {
+  section.page p {
+    font-size: 24px;
+  }
+}
+
+section.page a {
+  margin-left: 2px !important;
+  margin-right: 2px !important;
 }
 
 section.page input[type=text],
