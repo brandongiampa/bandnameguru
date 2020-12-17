@@ -2342,7 +2342,7 @@ function setBandNames() {
 
   var genre = getGenreFromURL();
 
-  if ("rock" !== genre && "metal" !== genre && "punk" !== genre) {
+  if ("rock" !== genre && "metal" !== genre && "punk" !== genre && "christmas" !== genre ) {
     window.location.replace(get404PageFromURL());
   } // Make a request for a user with a given ID
 

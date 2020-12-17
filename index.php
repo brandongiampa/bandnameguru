@@ -16,7 +16,8 @@
             <p>The <span class="orange">Guru of Rock</span> declareth:</p>
             <h1>Input thy genre.</h1>
             <select name="genre" id="genre">
-                <option value="rock" selected>Rock</option>
+                <option value="christmas" selected>Christmas</option>
+                <option value="rock">Rock</option>
                 <option value="metal">Metal</option>
                 <!-- <option value="black metal">Black Metal</option> -->
                 <option value="punk">Punk</option>
