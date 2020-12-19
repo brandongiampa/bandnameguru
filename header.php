@@ -43,9 +43,9 @@
     <meta name="twitter:image:alt" content="The year is 2021 and the vaccine has finally brought things back to normal. After spending your whole quarantine practicing, your band is going places. You are set to play the first set and the first rock festival in over a year! What is your band's name?">
 </head>
 <body style="background-image: url( <?php echo $bg_img; ?> ); background-position: center;">
-    <a href="https://www.tkqlhce.com/click-100292404-14357871" target="_top">
+    <!-- <a href="https://www.tkqlhce.com/click-100292404-14357871" target="_top">
         <img src="https://www.tqlkg.com/image-100292404-14357871" style="position: fixed; bottom: 0; left: 50%; transform: translateX( -50% ); z-index: 1001;" width="728" height="90" alt="" border="0"/>
-    </a>
+    </a> -->
     <header>
         <div class="container">
             <div class="header-wrap">
