@@ -47,6 +47,10 @@
         <img src="https://www.tqlkg.com/image-100292404-14357871" style="position: fixed; bottom: 0; left: 50%; transform: translateX( -50% ); z-index: 1001;" width="728" height="90" alt="" border="0"/>
     </a> -->
     <header>
+        <div class="seo-headers" style="position: absolute; visibility: hidden;">
+            <h1>Band Name Generator</h1>
+            <h2>Modern Band Name Maker</h2>
+        </div>
         <div class="container">
             <div class="header-wrap">
                 <div class="branding">
