@@ -284,7 +284,6 @@ section .dot-pulse {
 select,
 input[type=submit],
 button {
-  -webkit-appearance: none !important;
   font-size: 18px;
 }
 
