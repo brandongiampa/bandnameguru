@@ -1,3 +1,5 @@
+<?php $bg_admin_is_allowed = true; ?>
+
 <?php $bg_img = "img/gothgirl.jpg"; ?>
 
 <?php require_once realpath( __DIR__ . "/header.php" ); ?>

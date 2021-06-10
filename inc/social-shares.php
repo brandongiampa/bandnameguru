@@ -1,3 +1,5 @@
+<?php isset( $bg_admin_is_allowed ) ? false : die; ?>
+
 <div class="social-shares">
     <a class="share-link share-link-facebook" href="#">
         <i class="fab fa-facebook-f"></i>

@@ -1,3 +1,4 @@
+<?php $bg_admin_is_allowed = true; ?>
 <?php $is_index = true; ?>
 <?php $home = __DIR__; ?>
 <?php $bg_img = "img/ganesha.jpg"; ?>

@@ -1,3 +1,5 @@
+<?php isset( $bg_admin_is_allowed ) ? false : die( "This file is not for public consumption. Stop hacking." ); ?>
+
 <?php
     require_once "vendor/autoload.php" ; 
     use Dotenv\Dotenv;

@@ -1,3 +1,5 @@
+<?php isset( $bg_admin_is_allowed ) ? false : die; ?>
+
 <section id="show-names" class="show-names" style="background-image: url( 'img/concert.jpg' );">
     <div class="text">
         <p>

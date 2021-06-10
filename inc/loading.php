@@ -1,3 +1,5 @@
+<?php isset( $bg_admin_is_allowed ) ? false : die; ?>
+
 <section id="loading" class="loading" style="background-image: url( 'img/guru2.jpg' );">
     <div class="text">
         <h2>

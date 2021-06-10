@@ -1,3 +1,5 @@
+<?php $bg_admin_is_allowed = true; ?>
+
 <?php include_once realpath( __DIR__ . "/inc/send-email.php" ); ?>
 
 <?php require_once realpath( __DIR__ . "/header.php" ); ?>
@@ -17,14 +19,11 @@
             <hr>
             <br>
             <label for="name">Name:</label><br>
-            <input type="text" name="name" id="name" required>
-            <br>
+            <input type="text" name="name" id="name" required><br><br>
             <label for="email">Email:</label><br>
-            <input type="email" id="email" required>
-            <br>
-            <label for="message">Message:</label><br>
-            <textarea name="message"id="message"cols="30"rows="10"required></textarea>
-            <br>
+            <input type="email" id="email" required><br><br>
+            <label for="message">Message:</label>
+            <textarea name="message"id="message"cols="30"rows="10"required></textarea><br><br>
             <input type="submit" value="Send" name="send-email" id="submit">
         </form>
         <?php else: ?>

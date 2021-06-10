@@ -1,3 +1,5 @@
+<?php isset( $bg_admin_is_allowed ) ? false : die; ?>
+
 <nav id="navbar-main" class="navbar-main">
     <div id="close-nav" class="close-nav">
         <a href="#">

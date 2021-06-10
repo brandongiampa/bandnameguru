@@ -1,3 +1,5 @@
+<?php isset( $bg_admin_is_allowed ) ? false : die; ?>
+
 <?php
     require_once "vendor/autoload.php" ; 
     use Dotenv\Dotenv;

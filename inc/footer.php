@@ -1,3 +1,5 @@
+<?php isset( $bg_admin_is_allowed ) ? false : die; ?>
+
 <footer>
     <!-- <span class="copyright">
         &copy;2020 The Band Name Guru

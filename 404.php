@@ -1,3 +1,4 @@
+<?php $bg_admin_is_allowed = true; ?>
 <?php $bg_img = "img/lantern.jpg"; ?>
 <?php require_once realpath( __DIR__ . "/header.php" ); ?>
 <?php require_once realpath( __DIR__ . "/inc/navbar.php" ); ?>
